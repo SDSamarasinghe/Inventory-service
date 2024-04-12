@@ -9,6 +9,9 @@ export const ProductSchema = new Schema(
     description: String,
     imageURL: String,
     price: Number,
+    buyPrice: Number,
+    category: String,
+    stockCount: Number,
   },
   {
     timestamps: true,
