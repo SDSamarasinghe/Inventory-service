@@ -1,1 +1,29 @@
-
+const sampleData = [
+  {
+    "name": "Sample Product 1",
+    "description": "This is a sample product",
+    "imageURL": "http://example.com/sample-product1.jpg",
+    "price": 99.99,
+    "buyPrice": 50,
+    "category": "Sample Category",
+    "stockCount": 100
+  },
+  {
+    "name": "Sample Product 2",
+    "description": "This is another sample product",
+    "imageURL": "http://example.com/sample-product2.jpg",
+    "price": 89.99,
+    "buyPrice": 45,
+    "category": "Another Sample Category",
+    "stockCount": 150
+  },
+  {
+    "name": "Sample Product 3",
+    "description": "This is yet another sample product",
+    "imageURL": "http://example.com/sample-product3.jpg",
+    "price": 79.99,
+    "buyPrice": 40,
+    "category": "Yet Another Sample Category",
+    "stockCount": 200
+  }
+];
