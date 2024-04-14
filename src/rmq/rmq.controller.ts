@@ -13,7 +13,7 @@ export class RmqController {
     const connection = await amqp.connect(options.options.urls);
     const channel = await connection.createChannel();
 
-    const message = 'Hello, RabbitMQ!';
+    const message = 'Hello, RabbitMQ';
     channel.sendToQueue(queue, Buffer.from(message));
 
     await channel.close();
