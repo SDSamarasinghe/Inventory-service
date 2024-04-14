@@ -1,4 +1,4 @@
-const sampleData = [
+
   {
     "name": "Sample Product 1",
     "description": "This is a sample product",
@@ -26,4 +26,4 @@ const sampleData = [
     "category": "Yet Another Sample Category",
     "stockCount": 200
   }
-];
+
